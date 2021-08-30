@@ -1,6 +1,4 @@
 Modbus Master RTU/ASCII 
-   
-
 Supported Register
 •	0x01: Read coil status
 •	0x02: Read input status
@@ -13,7 +11,6 @@ Supported Register
 •	0x11: Report Slave ID.
 •	0x16: Mask write register
 •	0x17: Read/Write registers
-
 C#
 Int16[] Registers = new Int16[10];
 ModbusRTU.Result Result;
